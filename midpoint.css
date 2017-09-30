@@ -1,0 +1,60 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 5px solid grey;
+}
+
+#div { border: 1px solid black }
+
+div#top-spacer {
+	height: 5%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+	color: inherit
+}
+
+div#menu {
+	height: 5%;
+	background: grey;
+	font-size: 2vw;
+	font-family: Futara, serif;
+}
+
+div#menu span {
+	padding-left: 1vw;
+	padding-right: 2vw;
+}
+
+div#all {
+	width: 100%;
+	height: 100%;
+	border: solid 1% grey;
+}
+
+div#upper {
+	height: 90%;
+}
+
+div#artist {
+	float: left;
+	height: 100%;
+	width: 60%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div#description {
+	font-family: Cardo, serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5vw;
+	height: 100%;
+	padding-left: 0;
+	padding-right: 5vw;
+}
